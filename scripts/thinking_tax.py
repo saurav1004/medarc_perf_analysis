@@ -6,7 +6,7 @@ import os
 import numpy as np
 
 DATA_DIR = "../inference-scratch"
-OUTPUT_FILE = "thinking_efficiency_frontier_final.png"
+OUTPUT_FILE = "thinking_efficiency_frontier_final_previous.png"
 
 TARGET_TASKS = [
     'medqa', 
@@ -61,7 +61,11 @@ def analyze_efficiency_frontier_final():
         Cost=('model_token_completion', 'mean')
     ).reset_index()
 
-    think_keywords = ['think', 'reason', 'qwq', 'intellect']
+    think_keywords = [
+        'think', 'reason', 'qwq', 'intellect', 
+    #    'gpt-oss', 'sonnet-4_5', 'gpt_5_1'
+    ]
+    
     model_metrics['Family'] = model_metrics['model_id'].apply(lambda x: 
         'Thinking' if any(k in x.lower() for k in think_keywords) else 'Standard')
 
@@ -86,7 +90,7 @@ def analyze_efficiency_frontier_final():
 
     texts = []
     for _, row in model_metrics.iterrows():
-        short_name = row['model_id'].replace('-instruct', '').replace('-reasoning', '-R').replace('gpt-oss-', 'GPT-')
+        exact_name = row['model_id']
         
         label_color = '#8b0000' if row['Family'] == 'Thinking' else '#1f3f77'
         weight = 'bold' if row['Family'] == 'Thinking' else 'normal'
@@ -94,7 +98,7 @@ def analyze_efficiency_frontier_final():
         t = plt.text(
             row['Cost'], 
             row['Accuracy'], 
-            short_name, 
+            exact_name, # Using the exact name
             fontsize=FONT_SIZE, 
             weight=weight, 
             color=label_color,

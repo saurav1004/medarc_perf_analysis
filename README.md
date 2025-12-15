@@ -7,7 +7,7 @@ All the following experiments were done using the [Inference Results](https://hu
 
 Analyzes the cost-benefit ratio of inference compute. Determines if higher token counts correlate with meaningful accuracy gains. Considers following reasoning heavy tasks: MedQA, MedXpertQA-Reasoning, MedCalc-Bench, MMLU-Pro-Health, M-ARC.
 
-![Efficiency Frontier](plots/thinking_efficiency_frontier_expanded.png)
+![Efficiency Frontier](plots/thinking_efficiency_frontier_final_previous.png)
 
 ## 2. Dynamics: Thinking Length & Failure
 **Script:** `scripts/thinking_length.py`

@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import glob
 import os
 
-# Point to your correct data directory
 DATA_DIR = "../inference-scratch"
 OUTPUT_FILE = "pass_at_k_ordered_by_pass1.png"
 

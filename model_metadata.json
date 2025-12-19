@@ -1,0 +1,359 @@
+{
+    "afm-4-5b": {
+        "size_without_quant": "Tiny",
+        "size_with_quant": "Tiny",
+        "reasoning": false,
+        "name": "AFM 4.5B",
+        "params": 4.5
+    },
+    "baichuan-m2": {
+        "size_without_quant": "Medium",
+        "size_with_quant": "Medium",
+        "reasoning": false,
+        "name": "Baichuan M2 32B",
+        "params": 32
+    },
+    "gemini-3-pro-preview": {
+        "size_without_quant": "API",
+        "size_with_quant": "API",
+        "reasoning": true,
+        "name": "Gemini 3 Pro Preview",
+        "params": null
+    },
+    "gemma-3-12b-it": {
+        "size_without_quant": "Small",
+        "size_with_quant": "Small",
+        "reasoning": false,
+        "name": "Gemma 3 12B",
+        "params": 12
+    },
+    "gemma-3-27b-it": {
+        "size_without_quant": "Medium",
+        "size_with_quant": "Medium",
+        "reasoning": false,
+        "name": "Gemma 3 27B",
+        "params": 27
+    },
+    "gemma-3-4b-it": {
+        "size_without_quant": "Tiny",
+        "size_with_quant": "Tiny",
+        "reasoning": false,
+        "name": "Gemma 3 4B",
+        "params": 4
+    },
+    "glm-4.5-air": {
+        "size_without_quant": "Large",
+        "size_with_quant": "Large",
+        "reasoning": true,
+        "name": "GLM 4.5 Air",
+        "params": 106
+    },
+    "gpt-oss-120b": {
+        "size_without_quant": "Large",
+        "size_with_quant": "Medium",
+        "reasoning": true,
+        "name": "GPT-OSS 120B (med)",
+        "params": 117
+    },
+    "gpt-oss-120b-high": {
+        "size_without_quant": "Large",
+        "size_with_quant": "Medium",
+        "reasoning": true,
+        "name": "GPT-OSS 120B (high)",
+        "params": 117
+    },
+    "gpt-oss-120b-low": {
+        "size_without_quant": "Large",
+        "size_with_quant": "Medium",
+        "reasoning": true,
+        "name": "GPT-OSS 120B (low)",
+        "params": 117
+    },
+    "gpt-oss-20b": {
+        "size_without_quant": "Medium",
+        "size_with_quant": "Small",
+        "reasoning": true,
+        "name": "GPT-OSS 20B (med)",
+        "params": 21
+    },
+    "gpt-oss-20b-high": {
+        "size_without_quant": "Medium",
+        "size_with_quant": "Small",
+        "reasoning": true,
+        "name": "GPT-OSS 20B (high)",
+        "params": 21
+    },
+    "gpt-oss-20b-low": {
+        "size_without_quant": "Medium",
+        "size_with_quant": "Small",
+        "reasoning": true,
+        "name": "GPT-OSS 20B (low)",
+        "params": 21
+    },
+    "gpt_5_1": {
+        "size_without_quant": "API",
+        "size_with_quant": "API",
+        "reasoning": true,
+        "name": "GPT-5.1 (med)",
+        "params": null
+    },
+    "gpt-5_2": {
+        "size_without_quant": "API",
+        "size_with_quant": "API",
+        "reasoning": true,
+        "name": "GPT-5.2",
+        "params": null
+    },
+    "granite-4-0-h-small": {
+        "size_without_quant": "Medium",
+        "size_with_quant": "Medium",
+        "reasoning": false,
+        "name": "Granite 4.0H Small",
+        "params": 32
+    },
+    "granite-4-0-h-tiny": {
+        "size_without_quant": "Small",
+        "size_with_quant": "Small",
+        "reasoning": false,
+        "name": "Granite 4.0H Tiny",
+        "params": 7
+    },
+    "grok-4": {
+        "size_without_quant": "API",
+        "size_with_quant": "API",
+        "reasoning": true,
+        "name": "Grok 4",
+        "params": null
+    },
+    "hermes-4-14b": {
+        "size_without_quant": "Small",
+        "size_with_quant": "Small",
+        "reasoning": true,
+        "name": "Hermes 4 14B",
+        "params": 14
+    },
+    "hermes-4-70b": {
+        "size_without_quant": "Large",
+        "size_with_quant": "Large",
+        "reasoning": true,
+        "name": "Hermes 4 70B",
+        "params": 70
+    },
+    "intellect3": {
+        "size_without_quant": "Large",
+        "size_with_quant": "Large",
+        "reasoning": true,
+        "name": "Intellect 3",
+        "params": 106
+    },
+    "llama-3-70b-instruct": {
+        "size_without_quant": "Large",
+        "size_with_quant": "Large",
+        "reasoning": false,
+        "name": "Llama 3.3 70B Instruct",
+        "params": 70
+    },
+    "llama-3-8b-instruct": {
+        "size_without_quant": "Small",
+        "size_with_quant": "Small",
+        "reasoning": false,
+        "name": "Llama 3.1 8B Instruct",
+        "params": 8
+    },
+    "magistral-small": {
+        "size_without_quant": "Medium",
+        "size_with_quant": "Medium",
+        "reasoning": true,
+        "name": "Magistral Small",
+        "params": 24
+    },
+    "medgemma-27b-text": {
+        "size_without_quant": "Medium",
+        "size_with_quant": "Medium",
+        "reasoning": false,
+        "name": "MedGemma 27B",
+        "params": 27
+    },
+    "medgemma-4b-it": {
+        "size_without_quant": "Tiny",
+        "size_with_quant": "Tiny",
+        "reasoning": false,
+        "name": "MedGemma 4B",
+        "params": 4
+    },
+    "minimax-m2": {
+        "size_without_quant": "Large",
+        "size_with_quant": "Large",
+        "reasoning": false,
+        "name": "MiniMax M2",
+        "params": 230
+    },
+    "ministral3-14b-instruct": {
+        "size_without_quant": "Small",
+        "size_with_quant": "Small",
+        "reasoning": false,
+        "name": "Ministral 3 14B Instruct",
+        "params": 14
+    },
+    "ministral3-14b-reason": {
+        "size_without_quant": "Small",
+        "size_with_quant": "Small",
+        "reasoning": true,
+        "name": "Ministral 3 14B Reasoning",
+        "params": 14
+    },
+    "ministral3-3b-instruct": {
+        "size_without_quant": "Tiny",
+        "size_with_quant": "Tiny",
+        "reasoning": false,
+        "name": "Ministral 3 3B Instruct",
+        "params": 3
+    },
+    "ministral3-3b-reason": {
+        "size_without_quant": "Tiny",
+        "size_with_quant": "Tiny",
+        "reasoning": true,
+        "name": "Ministral 3 3B Reasoning",
+        "params": 3
+    },
+    "ministral3-8b-instruct": {
+        "size_without_quant": "Small",
+        "size_with_quant": "Small",
+        "reasoning": false,
+        "name": "Ministral 3 8B Instruct",
+        "params": 8
+    },
+    "ministral3-8b-reason": {
+        "size_without_quant": "Small",
+        "size_with_quant": "Small",
+        "reasoning": true,
+        "name": "Ministral 3 8B Reasoning",
+        "params": 8
+    },
+    "nemotron-nano-v2": {
+        "size_without_quant": "Small",
+        "size_with_quant": "Small",
+        "reasoning": false,
+        "name": "Nemotron Nano 12B V2",
+        "params": 12.31
+    },
+    "olmo-3-32b-think": {
+        "size_without_quant": "Medium",
+        "size_with_quant": "Medium",
+        "reasoning": true,
+        "name": "Olmo 3 32B Think",
+        "params": 32
+    },
+    "olmo-3-7b-instruct": {
+        "size_without_quant": "Small",
+        "size_with_quant": "Small",
+        "reasoning": false,
+        "name": "Olmo 3 7B Instruct",
+        "params": 7
+    },
+    "olmo-3-7b-think": {
+        "size_without_quant": "Small",
+        "size_with_quant": "Small",
+        "reasoning": true,
+        "name": "Olmo 3 7B Think",
+        "params": 7
+    },
+    "olmo-3_1-32b-instruct": {
+        "size_without_quant": "Medium",
+        "size_with_quant": "Medium",
+        "reasoning": false,
+        "name": "Olmo 3.1 32B Instruct",
+        "params": 32
+    },
+    "olmo-3_1-32b-think": {
+        "size_without_quant": "Medium",
+        "size_with_quant": "Medium",
+        "reasoning": true,
+        "name": "Olmo 3.1 32B Think",
+        "params": 32
+    },
+    "phi-4-reasoning": {
+        "size_without_quant": "Small",
+        "size_with_quant": "Small",
+        "reasoning": true,
+        "name": "Phi 4 Reasoning",
+        "params": 14
+    },
+    "qwen-235b-a22b": {
+        "size_without_quant": "Large",
+        "size_with_quant": "Large",
+        "reasoning": true,
+        "name": "Qwen3 235B-A22B Thinking",
+        "params": 235
+    },
+    "qwen-3-14b": {
+        "size_without_quant": "Small",
+        "size_with_quant": "Small",
+        "reasoning": true,
+        "name": "Qwen3 14B (Thinking)",
+        "params": 14
+    },
+    "qwen-3-4b-thinking": {
+        "size_without_quant": "Tiny",
+        "size_with_quant": "Tiny",
+        "reasoning": true,
+        "name": "Qwen3 4B Thinking",
+        "params": 4
+    },
+    "qwen-3-8b": {
+        "size_without_quant": "Small",
+        "size_with_quant": "Small",
+        "reasoning": true,
+        "name": "Qwen3 8B (Thinking)",
+        "params": 8
+    },
+    "qwen-30b-a3b": {
+        "size_without_quant": "Medium",
+        "size_with_quant": "Medium",
+        "reasoning": true,
+        "name": "Qwen3 30B-A3B Thinking",
+        "params": 30.5
+    },
+    "qwen-30b-a3b-instruct": {
+        "size_without_quant": "Medium",
+        "size_with_quant": "Medium",
+        "reasoning": false,
+        "name": "Qwen3 30B-A3B Instruct",
+        "params": 30.5
+    },
+    "qwen-next-80b-a3b": {
+        "size_without_quant": "Large",
+        "size_with_quant": "Large",
+        "reasoning": true,
+        "name": "Qwen3 Next 80B-A3B Thinking",
+        "params": 80
+    },
+    "qwen-next-80b-a3b-instruct": {
+        "size_without_quant": "Large",
+        "size_with_quant": "Large",
+        "reasoning": false,
+        "name": "Qwen3 Next 80B-A3B Instruct",
+        "params": 80
+    },
+    "smollm3-3b": {
+        "size_without_quant": "Tiny",
+        "size_with_quant": "Tiny",
+        "reasoning": false,
+        "name": "SmolLM3 3B",
+        "params": 3
+    },
+    "sonnet-4_5": {
+        "size_without_quant": "API",
+        "size_with_quant": "API",
+        "reasoning": true,
+        "name": "Claude Sonnet 4.5",
+        "params": null
+    },
+    "trinity-mini": {
+        "size_without_quant": "Medium",
+        "size_with_quant": "Medium",
+        "reasoning": true,
+        "name": "Trinity Mini",
+        "params": 26
+    }
+}

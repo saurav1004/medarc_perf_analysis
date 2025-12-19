@@ -30,7 +30,7 @@ def load_metadata():
         data = json.load(f)
     return data
 
-def analyze_token_efficiency_clean_names():
+def analyze_token_efficiency():
     print("Loading data...")
     metadata = load_metadata()
     if not metadata: return
@@ -182,4 +182,4 @@ def analyze_token_efficiency_clean_names():
     print(f"Generated {OUTPUT_FILE}")
 
 if __name__ == "__main__":
-    analyze_token_efficiency_clean_names()
+    analyze_token_efficiency()

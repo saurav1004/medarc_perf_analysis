@@ -3,11 +3,11 @@
 All the following experiments were done using the [Inference Results](https://huggingface.co/datasets/bwarner/inference-scratch) from the [MedARC Benchmarking Suite](https://github.com/MedARC-AI/med-lm-envs)
 
 ## 1. Efficiency Frontier 
-**Script:** `scripts/thinking_tax.py`
+**Script:** `scripts/token_efficiency.py`
 
 Analyzes the cost-benefit ratio of inference compute. Determines if higher token counts correlate with meaningful accuracy gains. Considers following reasoning heavy tasks: MedQA, MedXpertQA-Reasoning, MedCalc-Bench, MMLU-Pro-Health, M-ARC.
 
-![Efficiency Frontier](plots/thinking_efficiency_frontier_final_previous.png)
+![Efficiency Frontier](plots/token_efficiency.png)
 
 ## 2. Dynamics: Thinking Length & Failure
 **Script:** `scripts/thinking_length.py`

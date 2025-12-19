@@ -82,11 +82,9 @@ def analyze_token_efficiency_clean_names():
     size_order = ['Tiny', 'Small', 'Medium', 'Large', 'API', 'Unknown']
     existing_sizes = [s for s in size_order if s in model_metrics['Size'].unique()]
     
-    # Colors (Plasma)
     palette = sns.color_palette("plasma", n_colors=len(existing_sizes))
     size_color_map = dict(zip(existing_sizes, palette))
     
-    # Shapes (Size-based)
     shape_map = {
         'Tiny': 'o', 
         'Small': 'v', 
@@ -101,7 +99,6 @@ def analyze_token_efficiency_clean_names():
     sns.set_theme(style="whitegrid", context="paper")
     plt.figure(figsize=(16, 12))
     
-    # Scatter Plot
     sns.scatterplot(
         data=model_metrics, 
         x='Cost', 
@@ -138,9 +135,8 @@ def analyze_token_efficiency_clean_names():
                bbox_to_anchor=(0.98, 0.18), framealpha=0.9, edgecolor='gray')
 
     DO_NOT_ADJUST = []
-    
-    texts_to_adjust = []
     texts_fixed = []
+    texts_to_adjust = []
 
     for _, row in model_metrics.iterrows():
         mid = row['model_id']

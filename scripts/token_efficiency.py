@@ -145,7 +145,7 @@ def analyze_token_efficiency():
         label_text = info.get('name', mid)
 
         label_color = 'green' if row['Category'] == 'Thinking' else '#1f3f77'
-        weight = 'bold' if row['Category'] == 'Thinking' else 'bold'
+        weight = 'bold' 
 
         t = plt.text(
             row['Cost'], 
